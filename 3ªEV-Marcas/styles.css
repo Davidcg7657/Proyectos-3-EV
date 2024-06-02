@@ -1,0 +1,229 @@
+:root {
+  --azulAgua: #00b2e3;
+  --blanco: #ffffff;
+  --gris-claro: #d9d9d9;
+  --Negro: #000000;
+}
+
+body {
+  background-color: var(--blanco);
+  color: var(--blanco);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.seccion_inicio {
+  background-color: var(--gris-claro);
+  height: 100vh;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-image: url(/img/fondo_trading.jpeg);
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo p {
+  display: flex;
+  flex-direction: column;
+  font-family: "Myanmar Text", sans-serif;
+  font-size: 25px;
+  color: var(--blanco);
+  margin-left: 10px;
+}
+
+.logo p span {
+  display: flex;
+  color: var(--azulAgua);
+}
+
+.menu {
+  display: flex;
+  box-sizing: content-box;
+}
+
+.menu ul {
+  display: flex;
+  position: relative;
+  gap: 50px;
+  list-style: none;
+}
+
+.menu ul li {
+  justify-content: flex-end;
+  margin: 0 5px 0 0;
+  font-size: 25px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--blanco);
+  cursor: default;
+}
+
+.titulo {
+  display: flex;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+}
+
+.botones {
+  display: flex;
+  padding: 35px;
+  gap: 20px;
+}
+
+.botones button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: transparent;
+  border-radius: 10px;
+  color: var(--blanco);
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 15px;
+}
+
+.botones .gratis {
+  font-weight: 500;
+  background-color: #00b2e3;
+  color: #000000;
+  font-weight: 700;
+  border: 1px solid #00b2e3;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.titulo {
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 55px;
+  flex: 1;
+  margin-right: 20px;
+  padding: 0 90px;
+  font-family: sans-serif; 
+}
+
+.titulo h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.titulo h2 {
+  font-size: 30px;
+}
+
+.titulo img {
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  margin-left: auto;
+}
+
+.imagen-texto {
+  display: block;
+  flex-direction: column;
+  padding: 0 90px;
+  margin-top: 90px;
+}
+
+.imagen-texto p {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.imagen-texto .parrafo {
+  font-size: 20px;
+  color: #00b2e3;
+}
+
+.imagen-texto .color-azul {
+  color: #00b2e3;
+}
+
+.body {
+  background-color: white;
+}
+
+.body h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 75px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cards { /* */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 350px;
+}
+
+.card {
+  border: none;
+  padding: 10px 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 250px;
+  height: 500px;
+}
+
+.carta {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  color: #000000;
+  padding: 50px;
+}
+
+.icon {
+  height: auto;
+  padding: 10;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.titulo1 {
+  color: transparent;
+}
